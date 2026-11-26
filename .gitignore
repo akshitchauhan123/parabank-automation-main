@@ -1,0 +1,30 @@
+# Maven build target
+target/
+
+# IDE files
+.classpath
+.project
+.settings/
+*.iml
+.idea/
+.vscode/
+
+# Test outputs
+test-output/
+surefire-reports/
+
+# Temporary logs and OS files
+logs/
+*.log
+Thumbs.db
+.DS_Store
+
+# Test run screenshots (preserve defect evidence)
+screenshots/*.png
+!screenshots/defect-evidence.png
+!screenshots/test-run.png
+
+# Public repo exclusions (report includes personal identifiers)
+Project_Report/
+/generate_diagrams.py
+/generate_report_docx.py
